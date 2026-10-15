@@ -21,7 +21,7 @@ Visit <http://127.0.0.1:8000/>. No package installation or build step is needed.
 - `assets/logos/`: local organization marks for Infinigence AI, ByteDance, Tsinghua University, and Beihang University.
 - `assets/fonts/`: self-hosted Source Sans 3 and its SIL Open Font License.
 
-The AOPD title and Paper label are disabled placeholders until a public paper URL is available. To activate them, add that URL as `href` on both anchors and remove their `aria-disabled`, `role`, and `title` attributes. Local CV and manuscript PDFs are not published.
+The ActionOPD title and Paper link both point to <https://arxiv.org/abs/2610.19820>. Project, Code, and Models use the renamed official ActionOPD URLs. Local CV and manuscript PDFs are not published.
 
 ## Content sources and decisions
 
@@ -29,12 +29,12 @@ The AOPD title and Paper label are disabled placeholders until a public paper UR
 - The author subsequently confirmed three current advisors, in order: Prof. Yu Wang, Dr. Chao Yu, and Prof. Xiao-Ping Zhang. The 2025 Future Scholar Scholarship at Tsinghua University (清华大学2025未来学者奖学金) was added as the first honor.
 - The biography's research topics use the author's revised wording: LLM agents, reinforcement learning, action-level credit assignment, process rewards, and multi-agent systems. Publication titles retain their original names.
 - The author confirmed Infinigence AI employment as **Jun. 2025–Sep. 2025**. This corrects the older PDF's `Present` entry. The original CV itself has not been edited.
-- AOPD uses the current manuscript in `arxiv_v1`, its supplied Figure 2, and the confirmed project, code, and model links. It is listed as a **2026 preprint**, with no conference acceptance implied.
+- ActionOPD uses Figure 2 from the author's current manuscript in `[ICLR'27] ActionOPD/arxiv_v1`, with public paper, project, code, and model links. Its title matches the arXiv record: **ActionOPD: Distilling Decisions, Not Tokens**. It is listed as a **2026 preprint**, with no conference acceptance implied.
 - VPR uses the current project page and manuscript. It is listed as a preprint rather than repeating a historical submission status.
 - MARSHAL's authors, ICLR 2026 venue, links, and thumbnail were verified from its arXiv record and project page.
 - KDD and Nature Computational Science titles and authors were verified using the publishers' DOI records via Crossref. TEMPO was checked against the NeurIPS proceedings and author code repository.
 - Equal-contribution markers follow the supplied manuscripts and public records. The page does not repeat review scores or percentile claims from the CV.
-- The publication order follows the author's preference: AOPD, VPR, MARSHAL, the Nature Computational Science paper, TEMPO, and the KDD paper last.
+- The publication order follows the author's preference: ActionOPD, VPR, MARSHAL, the Nature Computational Science paper, TEMPO, and the KDD paper last.
 - The portrait comes from `../English_CV/personal_image.jpg`. Paper illustrations remain the authors' original figures, resized only for web delivery.
 - BILLIE's thumbnail is cropped from Figure 1 on PDF page 2 of `../papers/nature_comp_sci_billie.pdf`. TEMPO uses Figure 1 on PDF page 3 of the supplied NeurIPS 2023 paper. HA-PFD uses the teacher–student diagram in Figure 2(b) on PDF page 3 of `../papers/kdd25_hapfd.pdf`. Crops exclude surrounding prose and captions.
 - Chao Yu's advisor links use the author-supplied homepage, <https://zoeyuchao.github.io/>.
